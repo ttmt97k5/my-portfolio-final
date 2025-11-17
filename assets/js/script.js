@@ -60,7 +60,7 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Portfolio | MinThuChan";
-            $("#favicon").attr("href", "assets/images/favicon.png");
+            $("#favicon").attr("href", "assets/images/minthuchan.jpg");
         }
         else {
             document.title = "Come Back To Portfolio";
@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Business Analyst ", "Data Analyst", "Web Designing", "Tester", "Web Development"],
+    strings: ["Tester"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
